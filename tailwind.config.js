@@ -4,8 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Helvetica", "Arial", "sans-serif"], // Helvetica stack
+        helva: ["Helvetica", "Arial", "sans-serif"], // Helvetica stack
         inter: ["Inter", "sans-serif"], // Inter as a separate stack
+      },
+      colors: {
+        primary: "#050038",
       },
     },
   },
