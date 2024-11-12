@@ -98,3 +98,36 @@ export const ProfessionalLists = [
 ];
 
 export const uxList = [gem, xd, figma, notion];
+
+export const statistics = [
+  {
+    metric: "ISO",
+    value: "ISO",
+    description: "enterprise-grade security compliant",
+  },
+  {
+    metric: "Ranking",
+    value: "#1",
+    description: "Visual Collaboration Platform on G2",
+  },
+  {
+    metric: "Fortune 100",
+    value: "99%",
+    description: "of the Fortune 100 are customers",
+  },
+  {
+    metric: "Templates",
+    value: "1,000+",
+    description: "community- and expert-built templates",
+  },
+  {
+    metric: "Users",
+    value: "45M+",
+    description: "users around the world",
+  },
+  {
+    metric: "Integrations",
+    value: "100+",
+    description: "integrations with technology partners",
+  },
+];
