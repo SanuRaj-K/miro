@@ -3,11 +3,14 @@ import CommonButton from "../../components/common/Button";
 import { G2, landing1, stars } from "../../constants/assetsData";
 import Trust from "../../components/trust/Trust";
 import Collab from "../../components/collab";
+import WorkTogether from "../../components/work-together";
+import ViewReport from "../../components/report-view";
+import Built from "../../components/built";
 
 const Landing = () => {
   return (
-    <div className="  mt-28 bg-white px-10">
-      <div className=" flex-btw">
+    <div className="    bg-white px-28">
+      <div className="  h-screen flex-btw">
         <div className="    ">
           <h1 className="  font-inter  text-[45px] font-bold w-[350px] text-primary">
             {" "}
@@ -65,6 +68,15 @@ const Landing = () => {
       </section>
       <section className=" py-20">
         <Collab />
+      </section>
+      <section className=" py-20">
+        <WorkTogether />
+      </section>
+      <section className=" py-20">
+        <ViewReport />
+      </section>
+      <section className=" py-20">
+        <Built />
       </section>
     </div>
   );

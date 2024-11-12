@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <div>
       <div>
-        <header className=" flex justify-between items-center font-inter text-black capitalize font-medium fixed top-0 z-50  w-full bg-white py-3 px-4">
+        <header className=" flex shadow-xl justify-between items-center font-inter text-black capitalize font-medium fixed top-0 z-50  w-full bg-white py-3 px-4">
           <div className="  flex justify-between items-center ">
             <img className=" cursor-pointer " src={logo} alt="" />
 

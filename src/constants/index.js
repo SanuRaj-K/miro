@@ -1,4 +1,15 @@
-import { fb, globe, insta, linkedin, twitter, youtube } from "./assetsData";
+import {
+  fb,
+  figma,
+  gem,
+  globe,
+  insta,
+  linkedin,
+  notion,
+  twitter,
+  xd,
+  youtube,
+} from "./assetsData";
 
 export const productItems = [
   "Online whiteboard",
@@ -79,3 +90,11 @@ export const collabContent = [
     desc: "We treat your data like you would — with the utmost care. We follow industry-leading security standards and give you tools to protect intellectual property. Learn more at our",
   },
 ];
+
+export const ProfessionalLists = [
+  "Build low-fi wireframes",
+  "Involve stakeholders in the design process",
+  "Run engaging design workshops",
+];
+
+export const uxList = [gem, xd, figma, notion];
