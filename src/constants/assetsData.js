@@ -30,15 +30,14 @@ import t4 from "../assets/images/users/deloitte.svg.png";
 import t5 from "../assets/images/users/okta.svg.png";
 import p1 from "../assets/images/users/person-1.png";
 import p2 from "../assets/images/users/person-2.png";
-
 import p3 from "../assets/images/users/person-3.png";
-
 import xd from "../assets/icons/xd.png";
-
+import blueArrow from "../assets/icons/right-arrow-svgrepo-com.svg";
 export {
   logo,
   p1,
   p2,
+  blueArrow,
   p3,
   figma,
   gem,

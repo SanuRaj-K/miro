@@ -1,5 +1,5 @@
 import React from "react";
-import { arrow } from "../../constants/assetsData";
+import {  blueArrow } from "../../constants/assetsData";
 import { testimonials } from "../../constants";
 
 const Reviews = () => {
@@ -11,7 +11,7 @@ const Reviews = () => {
         </h1>
         <div className="   cursor-pointer inline-flex border-2 border-[#4262FF] text-[#4262FF]  justify-center items-center  px-4 py-2   rounded-full">
           <span>See all customer stories</span>{" "}
-          <img className=" ml-2" src={arrow} alt="arrow" />
+          <img className=" size-3 ml-2" src={blueArrow} alt="arrow" />
         </div>
       </div>
       <div>

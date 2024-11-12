@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {
-  arrow,
+
+  blueArrow,
   Brainstorming,
   tick,
   uxDesign,
@@ -57,11 +58,11 @@ const Built = () => {
               notes, images, mind maps, videos, drawing capabilities — the list
               goes on.
             </p>{" "}
-            <div className=" mt-5 flex-normal">
+            <div className="  group cursor-pointer mt-5 flex-normal">
               <span className=" text-blue-600 underline text-[14px]">
                 Learn more
               </span>
-              <img className=" ml-1 bg-blue-600" src={arrow} alt="arrow" />
+              <img className=" group-hover:translate-x-2  transition-all duration-300 ml-1 size-3" src={blueArrow} alt="blueArrow" />
             </div>
           </div>
           <div>
@@ -97,11 +98,11 @@ const Built = () => {
                 </li>
               ))}
             </ul>
-            <div className=" mt-5 flex-normal">
+            <div className=" cursor-pointer group mt-5 flex-normal">
               <span className=" text-blue-600 underline text-[14px]">
                 Learn more
               </span>
-              <img className=" ml-1 bg-blue-600" src={arrow} alt="arrow" />
+              <img className=" group-hover:translate-x-2  transition-all duration-300 ml-1 size-3" src={blueArrow} alt="blueArrow" />
             </div>
             <h1 className=" font-helva pt-5">Integrate your favorite tools</h1>
             <ul className=" mt-4 flex-normal ">

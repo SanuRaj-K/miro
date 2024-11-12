@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  arrow,
+  blueArrow,
   integrations,
   workTogertImage,
 } from "../../constants/assetsData";
@@ -18,11 +18,11 @@ const WorkTogether = () => {
             connect, collaborate, and co-create in one space no matter where you
             are.
           </p>
-          <div className=" mt-5 flex-normal">
+          <div className=" group  cursor-pointer mt-5 flex-normal">
             <span className=" text-blue-600 underline text-[14px]">
               Learn more
             </span>
-            <img className=" ml-1 bg-blue-600" src={arrow} alt="arrow" />
+            <img className=" ml-1group-hover:translate-x-2  transition-all duration-300    size-3 " src={blueArrow} alt="arrow" />
           </div>
         </div>
         <div>
@@ -42,11 +42,11 @@ const WorkTogether = () => {
             collaborate over Zoom, Miro has 100+ integrations with tools you
             already use and love.
           </p>
-          <div className=" mt-5 flex-normal">
+          <div className=" group mt-5 cursor-pointer flex-normal">
             <span className=" text-blue-600 underline text-[14px]">
               Learn more
             </span>
-            <img className=" ml-1 bg-blue-600" src={arrow} alt="arrow" />
+            <img className=" ml-1 group-hover:translate-x-2  transition-all duration-300 size-3"  src={blueArrow} alt="arrow" />
           </div>
         </div>
       </div>
