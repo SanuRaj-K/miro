@@ -2,6 +2,7 @@ import React from "react";
 import CommonButton from "../../components/common/Button";
 import { G2, landing1, stars } from "../../constants/assetsData";
 import Trust from "../../components/trust/Trust";
+import Collab from "../../components/collab";
 
 const Landing = () => {
   return (
@@ -61,6 +62,9 @@ const Landing = () => {
       </div>
       <section className=" py-20">
         <Trust />
+      </section>
+      <section className=" py-20">
+        <Collab />
       </section>
     </div>
   );
