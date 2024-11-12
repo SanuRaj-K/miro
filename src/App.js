@@ -1,10 +1,12 @@
- import './App.css';
-import NavBar from './components/header/navbar';
+import "./App.css";
+import Footer from "./components/footer/footer";
+import NavBar from "./components/header/navbar";
 
 function App() {
   return (
     <div className="App  bg-white">
-        <NavBar/>
+      <NavBar />
+      <Footer />
     </div>
   );
 }
