@@ -6,6 +6,9 @@ import {
   insta,
   linkedin,
   notion,
+  p1,
+  p2,
+  p3,
   twitter,
   xd,
   youtube,
@@ -129,5 +132,32 @@ export const statistics = [
     metric: "Integrations",
     value: "100+",
     description: "integrations with technology partners",
+  },
+];
+
+export const testimonials = [
+  {
+    name: "Roxanne Mustafa",
+    image: p1,
+    role: "Design Team Lead",
+    company: "VMware",
+    quote:
+      "When the pandemic hit, those of us who thrive on in-person collaboration were worried that our creativity and productivity would suffer. Miro was the perfect tool to help us with collaboration, whiteboarding, and retrospectives while remote.",
+  },
+  {
+    name: "Jane Ashley",
+    image: p2,
+    role: "Head of Design",
+    company: "DocuSign",
+    quote:
+      "Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.",
+  },
+  {
+    name: "Laura Baird",
+    image: p3,
+    role: "Associate Design Director",
+    company: "frog",
+    quote:
+      "As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that's at the core of what we do and will continue to extend into the future.",
   },
 ];

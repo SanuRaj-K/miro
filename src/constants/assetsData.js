@@ -28,10 +28,18 @@ import t2 from "../assets/images/users/Walmart_Index_Only.svg.png";
 import t3 from "../assets/images/users/cisco.svg.png";
 import t4 from "../assets/images/users/deloitte.svg.png";
 import t5 from "../assets/images/users/okta.svg.png";
+import p1 from "../assets/images/users/person-1.png";
+import p2 from "../assets/images/users/person-2.png";
+
+import p3 from "../assets/images/users/person-3.png";
+
 import xd from "../assets/icons/xd.png";
 
 export {
   logo,
+  p1,
+  p2,
+  p3,
   figma,
   gem,
   notion,

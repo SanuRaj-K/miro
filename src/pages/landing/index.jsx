@@ -8,6 +8,7 @@ import ViewReport from "../../components/report-view";
 import Built from "../../components/built";
 import Stats from "../../components/stats";
 import ContactBottom from "../../components/contact";
+import Reviews from "../../components/review";
 
 const Landing = () => {
   return (
@@ -86,6 +87,9 @@ const Landing = () => {
         <Stats />
       </section>
       <div className=" px-28">
+        <section className=" py-20">
+          <Reviews />
+        </section>
         <section className=" py-20 rounded-lg bg-primary">
           <ContactBottom />
         </section>
