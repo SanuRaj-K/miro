@@ -8,22 +8,22 @@ const Collab = () => {
       <div>
         {" "}
         <div className="   relative flex justify-center items-center flex-col">
-          <h1 className=" w-[500px] text-center text-primary font-inter text-[45px] font-bold">
+          <h1 className=" md:w-[500px] text-center text-primary font-inter  text-[30px] md:text-[45px] font-bold">
             Collaborate without constraints
           </h1>
-          <span className=" absolute -top-[20px] right-[400px] rotate-12 bg-[#FFD02F] font-bold text-black px-3 py-1 rounded-md text-[10px]">
+          <span className=" absolute -top-[20px] right-0 lg:right-[400px] rotate-12 bg-[#FFD02F] font-bold text-black px-3 py-1 rounded-md text-[10px]">
             YOUR IDEA STARTS HERE
           </span>
         </div>
         <div>
-          <ul className=" my-10   grid grid-cols-3 place-items-center  gap-10">
+          <ul className=" my-10   grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center  gap-10">
             {collabContent?.map((item, index) => (
               <li key={index}>
-                <h1 className="  font-bold text-[24px] font-inter text-primary">
+                <h1 className="  font-bold text-[18px]  md:text-[24px] font-inter text-primary">
                   {item.title}
                 </h1>
-                <p className="  mt-5 font-helva">{item.desc}</p>
-                <span className=" text-blue-500">{item.last}</span>
+                <p className=" text-[14px] md:text-[16px]  mt-5 font-helva">{item.desc}</p>
+                <span className=" text-blue-500 text-[14px] md:text-[16px]">{item.last}</span>
               </li>
             ))}
           </ul>

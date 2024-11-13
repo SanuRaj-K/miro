@@ -13,18 +13,18 @@ import Reviews from "../../components/review";
 const Landing = () => {
   return (
     <div>
-      <div className="    bg-white px-28">
-        <div className="  h-screen flex-btw">
+      <div className="    bg-white w-full px-5 md:px-10 lg:px-28">
+        <div className="  h-screen w-full flex flex-col-reverse  md:flex-row md:flex-btw">
           <div className="    ">
-            <h1 className="  font-inter  text-[45px] font-bold w-[350px] text-primary">
+            <h1 className="  font-inter  text-[30px] md:text-[45px] font-bold md:w-[350px] text-primary">
               {" "}
               Take ideas from better to best
             </h1>
-            <p className=" w-[400px]  text-primary text-[18px] ">
+            <p className=" md:w-[400px]  text-primary text-[18px] ">
               Miro is your team's visual platform to connect, collaborate and
               create - together.
             </p>
-            <div className=" w-[300px] py-5">
+            <div className=" md:w-[300px] py-5">
               <input
                 type="text"
                 placeholder="Enter your work email"
@@ -67,33 +67,33 @@ const Landing = () => {
             </div>
           </div>
         </div>
-        <section className=" py-20">
+         <section className="  py-10 md:py-20">
           <Trust />
         </section>
-        <section className=" py-20">
+        <section className="  py-10 md:py-20">
           <Collab />
         </section>
-        <section className=" py-20">
+        <section className="  py-10 md:py-20">
           <WorkTogether />
         </section>
-        <section className=" py-20">
+        {/* <section className="  py-10 md:py-20">
           <ViewReport />
-        </section>
-        <section className=" py-20">
+        </section> */}
+        {/* <section className="  py-10 md:py-20">
           <Built />
-        </section>
+        </section>  */}
       </div>
-      <section className=" bg-[#FFD02F] px-28 py-20">
+      {/* <section className=" bg-[#FFD02F] px-28  py-10 md:py-20">
         <Stats />
       </section>
       <div className=" px-28">
-        <section className=" py-20">
+        <section className="  py-10 md:py-20">
           <Reviews />
         </section>
-        <section className=" py-20 rounded-lg bg-primary">
+        <section className="  py-10 md:py-20 rounded-lg bg-primary">
           <ContactBottom />
         </section>
-      </div>
+      </div> */}
     </div>
   );
 };

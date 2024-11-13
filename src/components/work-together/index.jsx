@@ -8,12 +8,12 @@ import {
 const WorkTogether = () => {
   return (
     <div>
-      <div className="font-inter flex-btw">
+      <div className="font-inter flex flex-col  md:flex-row md:flex-btw">
         <div>
-          <h1 className=" text-[48px]  font-bold  text-primary">
+          <h1 className=" text-[26px] md:text-[35px] lg:text-[48px]  font-bold  text-primary">
             Work Together, <br /> whenever you work
           </h1>
-          <p className=" w-[400px]">
+          <p className=" md:w-[400px]">
             In the office, remote, or a mix of the two, with Miro, your team can
             connect, collaborate, and co-create in one space no matter where you
             are.
@@ -29,15 +29,15 @@ const WorkTogether = () => {
           <img src={workTogertImage} alt="" />
         </div>
       </div>
-      <div className="font-inter flex-btw">
+      <div className="font-inter flex flex-col-reverse  md:flex-row md:flex-btw  ">
         <div>
           <img src={integrations} alt="" />
         </div>
         <div>
-          <h1 className=" text-[48px]  font-bold  text-primary">
+          <h1 className=" text-[26px] md:text-[35px] lg:text-[48px] font-bold  text-primary">
             Connect <br /> your tools, <br /> close your tabs
           </h1>
-          <p className=" w-[400px]">
+          <p className=" md:w-[400px]">
             Whether you want to edit your Google Docs, resolve Jira issues, or
             collaborate over Zoom, Miro has 100+ integrations with tools you
             already use and love.

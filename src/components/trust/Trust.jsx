@@ -9,9 +9,9 @@ const Trust = () => {
         <h1 className=" text-[18px] font-inter text-center">
           Trusted by 45M users
         </h1>
-        <ul className=" flex-normal justify-center mt-8 flex-wrap  ">
+        <ul className=" flex-normal items-center justify-center mt-8 flex-wrap  ">
           {users?.map((item, index) => (
-            <li className=" cursor-pointer" key={index}>
+            <li className=" px-3 cursor-pointer" key={index}>
               <img src={item} alt="logos" />
             </li>
           ))}
