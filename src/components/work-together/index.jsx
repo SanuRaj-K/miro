@@ -4,11 +4,18 @@ import {
   integrations,
   workTogertImage,
 } from "../../constants/assetsData";
+import { motion } from "framer-motion";
 
 const WorkTogether = () => {
   return (
     <div>
-      <div className="font-inter flex flex-col  md:flex-row md:flex-btw">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        viewport={{ once: true }}
+        className="font-inter flex flex-col  md:flex-row md:flex-btw"
+      >
         <div>
           <h1 className=" text-[26px] md:text-[35px] lg:text-[48px]  font-bold  text-primary">
             Work Together, <br /> whenever you work
@@ -22,14 +29,24 @@ const WorkTogether = () => {
             <span className=" text-blue-600 underline text-[14px]">
               Learn more
             </span>
-            <img className=" ml-1group-hover:translate-x-2  transition-all duration-300    size-3 " src={blueArrow} alt="arrow" />
+            <img
+              className=" ml-1group-hover:translate-x-2  transition-all duration-300    size-3 "
+              src={blueArrow}
+              alt="arrow"
+            />
           </div>
         </div>
         <div>
           <img src={workTogertImage} alt="" />
         </div>
-      </div>
-      <div className="font-inter flex flex-col-reverse  md:flex-row md:flex-btw  ">
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        viewport={{ once: true }}
+        className="font-inter flex flex-col-reverse  md:flex-row md:flex-btw  "
+      >
         <div>
           <img src={integrations} alt="" />
         </div>
@@ -46,10 +63,14 @@ const WorkTogether = () => {
             <span className=" text-blue-600 underline text-[14px]">
               Learn more
             </span>
-            <img className=" ml-1 group-hover:translate-x-2  transition-all duration-300 size-3"  src={blueArrow} alt="arrow" />
+            <img
+              className=" ml-1 group-hover:translate-x-2  transition-all duration-300 size-3"
+              src={blueArrow}
+              alt="arrow"
+            />
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

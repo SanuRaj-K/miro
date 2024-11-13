@@ -9,13 +9,20 @@ import Built from "../../components/built";
 import Stats from "../../components/stats";
 import ContactBottom from "../../components/contact";
 import Reviews from "../../components/review";
+import { motion } from "framer-motion";
 
 const Landing = () => {
   return (
     <div>
       <div className="    bg-white w-full px-5 md:px-10 lg:px-28">
         <div className="pt-28  h-screen w-full flex flex-col-reverse  md:flex-row md:flex-btw">
-          <div className="    ">
+          <motion.div
+            initial={{ x: "-100px", opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: 1 }}
+            viewport={{ once: true }}
+            className="    "
+          >
             <h1 className="  font-inter  text-[30px] md:text-[45px] font-bold md:w-[350px] text-primary">
               {" "}
               Take ideas from better to best
@@ -60,14 +67,19 @@ const Landing = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div>
+          </motion.div>
+          <motion.div
+           initial={{ x: "100px", opacity: 0 }}
+           animate={{ x: 0, opacity: 1 }}
+           transition={{ duration: 1 }}
+           viewport={{ once: true }}
+          >
             <div>
               <img className=" p-4" src={landing1} alt="" />
             </div>
-          </div>
+          </motion.div>
         </div>
-         <section className="  py-10 md:py-20">
+        <section className="  py-10 md:py-20">
           <Trust />
         </section>
         <section className="  py-10 md:py-20">
@@ -81,7 +93,7 @@ const Landing = () => {
         </section>
         <section className="  py-10 md:py-20">
           <Built />
-        </section> 
+        </section>
       </div>
       <section className=" bg-[#FFD02F] px-5 md:px-10 lg:px-28  py-10 md:py-20">
         <Stats />

@@ -20,7 +20,7 @@ const NavBar = () => {
 
             <ul className=" hidden sm:flex justify-between items-center">
               {navData?.map((item, index) => (
-                <li key={index} className=" px-3 cursor-pointer">
+                <li key={index} className=" hover:underline px-3 cursor-pointer">
                   {" "}
                   {item}
                 </li>
@@ -29,13 +29,13 @@ const NavBar = () => {
           </div>
           <div>
             <ul className=" hidden lg:flex justify-between items-center">
-              <li className=" cursor-pointer   flex items-center">
+              <li className=" hover:underline cursor-pointer   flex items-center">
                 <img className=" size-4" src={globe} alt="globe" />
                 <span className=" pl-1 ">EN</span>
               </li>
-              <li className=" cursor-pointer px-3">Contact Sales</li>
-              <li className=" cursor-pointer">Login</li>
-              <li className=" cursor-pointer pl-2">
+              <li className=" hover:underline  cursor-pointer px-3">Contact Sales</li>
+              <li className="hover:underline cursor-pointer">Login</li>
+              <li className=" hover:underline cursor-pointer pl-2">
                 <CommonButton content={"Sign up free"} />
               </li>
             </ul>
