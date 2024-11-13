@@ -14,7 +14,7 @@ const Landing = () => {
   return (
     <div>
       <div className="    bg-white w-full px-5 md:px-10 lg:px-28">
-        <div className="  h-screen w-full flex flex-col-reverse  md:flex-row md:flex-btw">
+        <div className="pt-28  h-screen w-full flex flex-col-reverse  md:flex-row md:flex-btw">
           <div className="    ">
             <h1 className="  font-inter  text-[30px] md:text-[45px] font-bold md:w-[350px] text-primary">
               {" "}
