@@ -34,7 +34,7 @@ const Built = () => {
   return (
     <div>
       <div>
-        <h1 className=" text-[45px] font-inter  font-bold text-primary">
+        <h1 className=" text-[26px] md:text-[45px] font-inter  font-bold text-primary">
           Buit for the way of you work
         </h1>
         <ul className="  overflow-auto mt-4 flex-normal">
@@ -50,10 +50,10 @@ const Built = () => {
             </li>
           ))}
         </ul>
-        <div className=" mt-4 flex justify-between">
-          <div className=" w-[350px] mt-10 font-helva">
+        <div className=" mt-4 flex flex-col md:flex-row md:justify-between">
+          <div className=" md:w-[350px] mt-10 font-helva">
             <h3 className=" text-primary">{selectedCategory}</h3>
-            <p className="  mt-2">
+            <p className="  text-[14px]  md:text-[16px] mt-2">
               Unleash creative ideas and build on them with the help of sticky
               notes, images, mind maps, videos, drawing capabilities — the list
               goes on.
@@ -71,7 +71,7 @@ const Built = () => {
         </div>
       </div>
       <div className=" mt-10">
-        <h1 className=" text-[45px] font-inter  font-bold text-primary">
+        <h1 className=" text-[30px] md:text-[45px] font-inter  font-bold text-primary">
           Built for all kind of teams
         </h1>
         <ul className="  overflow-auto mt-4 flex-normal">
@@ -87,12 +87,12 @@ const Built = () => {
             </li>
           ))}
         </ul>
-        <div className=" mt-4 flex justify-between">
-          <div className=" w-[350px] mt-10 font-helva">
+        <div className=" mt-4 flex  md:flex-row flex-col md:justify-between">
+          <div className=" md:w-[350px] mt-10 font-helva">
             <h3 className=" text-primary">{professtionalCategory}</h3>
             <ul className=" flex flex-col mt-4">
               {ProfessionalLists?.map((item, index) => (
-                <li className=" flex-normal" key={index}>
+                <li className=" text-[14px]  md:text-[16px] flex-normal" key={index}>
                   <img src={tick} alt="" />
                   <span className=" ml-1">{item}</span>
                 </li>

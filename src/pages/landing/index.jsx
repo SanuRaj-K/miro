@@ -76,24 +76,24 @@ const Landing = () => {
         <section className="  py-10 md:py-20">
           <WorkTogether />
         </section>
-        {/* <section className="  py-10 md:py-20">
+        <section className="  py-10 md:py-20">
           <ViewReport />
-        </section> */}
-        {/* <section className="  py-10 md:py-20">
+        </section>
+        <section className="  py-10 md:py-20">
           <Built />
-        </section>  */}
+        </section> 
       </div>
-      {/* <section className=" bg-[#FFD02F] px-28  py-10 md:py-20">
+      <section className=" bg-[#FFD02F] px-5 md:px-10 lg:px-28  py-10 md:py-20">
         <Stats />
       </section>
-      <div className=" px-28">
+      <div className=" px-5 md:px-10 lg:px-28">
         <section className="  py-10 md:py-20">
           <Reviews />
         </section>
         <section className="  py-10 md:py-20 rounded-lg bg-primary">
           <ContactBottom />
         </section>
-      </div> */}
+      </div>
     </div>
   );
 };
