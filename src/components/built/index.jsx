@@ -63,8 +63,8 @@ const Built = () => {
               variants={itemVariants}
               onClick={() => setSelectedCategory(item)}
               className={`${
-                selectedCategory === item ? "bg-[#F1F3FD]" : "border-2"
-              } text-primary mx-3 cursor-pointer  rounded-full px-3 py-2 font-helva `}
+                selectedCategory === item ? "bg-[#F1F3FD]" : " md:border-2"
+              } text-primary mx-3 cursor-pointer  rounded-full  px-3 py-2 font-helva `}
               key={index}
             >
               {item}

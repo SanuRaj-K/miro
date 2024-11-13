@@ -15,7 +15,7 @@ const Landing = () => {
   return (
     <div>
       <div className="    bg-white w-full px-5 md:px-10 lg:px-28">
-        <div className="pt-28  h-screen w-full flex flex-col-reverse  md:flex-row md:flex-btw">
+        <div className="md:pt-28  h-screen md:h-[500px] lg:h-screen w-full flex flex-col-reverse  md:flex-row  md:justify-between items-center ">
           <motion.div
             initial={{ x: "-100px", opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
@@ -88,7 +88,7 @@ const Landing = () => {
         <section className="  py-10 md:py-20">
           <WorkTogether />
         </section>
-        <section className="  py-10 md:py-20">
+        <section className="    md:py-20">
           <ViewReport />
         </section>
         <section className="  py-10 md:py-20">

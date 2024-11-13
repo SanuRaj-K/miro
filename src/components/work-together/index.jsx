@@ -14,13 +14,13 @@ const WorkTogether = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
         viewport={{ once: true }}
-        className="font-inter flex flex-col  md:flex-row md:flex-btw"
+        className="font-inter flex flex-col  md:flex-row  md:justify-between md:items-center"
       >
         <div>
           <h1 className=" text-[26px] md:text-[35px] lg:text-[48px]  font-bold  text-primary">
             Work Together, <br /> whenever you work
           </h1>
-          <p className=" md:w-[400px]">
+          <p className=" mt-2 md:w-[400px]">
             In the office, remote, or a mix of the two, with Miro, your team can
             connect, collaborate, and co-create in one space no matter where you
             are.
@@ -30,7 +30,7 @@ const WorkTogether = () => {
               Learn more
             </span>
             <img
-              className=" ml-1group-hover:translate-x-2  transition-all duration-300    size-3 "
+              className=" ml-1 group-hover:translate-x-2  transition-all duration-300    size-3 "
               src={blueArrow}
               alt="arrow"
             />
@@ -45,7 +45,7 @@ const WorkTogether = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
         viewport={{ once: true }}
-        className="font-inter flex flex-col-reverse  md:flex-row md:flex-btw  "
+        className="font-inter flex flex-col-reverse  md:flex-row md:justify-between md:items-center "
       >
         <div>
           <img src={integrations} alt="" />
@@ -54,7 +54,7 @@ const WorkTogether = () => {
           <h1 className=" text-[26px] md:text-[35px] lg:text-[48px] font-bold  text-primary">
             Connect <br /> your tools, <br /> close your tabs
           </h1>
-          <p className=" md:w-[400px]">
+          <p className=" mt-2 md:w-[400px]">
             Whether you want to edit your Google Docs, resolve Jira issues, or
             collaborate over Zoom, Miro has 100+ integrations with tools you
             already use and love.
